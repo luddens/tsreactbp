@@ -1,0 +1,42 @@
+{
+
+//   "compileOnSave": true,
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "allowJs": true,
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es6",
+      "jsx": "react",
+      "alwaysStrict": false,
+      "strict": false,
+      "strictNullChecks": true,
+      "esModuleInterop": true,
+      // "transpileOnly": true,
+    // //   "types": [@type/files]
+    //   "tsBuildInfoFile": "./frontend/.tsbuildinfofile",
+    //   "charset": "utf8",
+    //   "declaration": true, 
+    //   "allowSyntheticDefaultImports": true,
+    //   "extendedDiagnostics": true,
+    //   "composite": true,
+    //   "incremental" : true,
+    // //   "rootDir": "./frontend/",
+    // //   "sourceRoot": "./frontend",
+    //   "diagnostics": true
+  },
+  "include": [
+      "frontend/**/*.tsx"
+  ],
+  "exclude": [
+      "backend",
+      "tests",
+      "dist",
+      "node_modules",
+      "**/*.spec.js",
+      "**/*.spec.ts",
+      "**/*.test.ts",
+      "**/*.test.ts"
+  ]
+} 

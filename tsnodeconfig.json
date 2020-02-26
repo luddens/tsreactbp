@@ -1,0 +1,32 @@
+{
+
+  "compileOnSave": true,
+  "compilerOptions": {
+      "watch": true,
+      "allowJs": true,
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es6",
+      "alwaysStrict": false,
+      "strict": false,
+      "strictNullChecks": true,
+      "esModuleInterop": true,
+      "charset": "utf8",
+      "incremental" : true
+  },
+  "include": [
+      "app.ts",
+      "backend/**/*.ts"
+  ],
+  "exclude": [
+      "frontend",
+      "tests",
+      "dist",
+      "node_modules",
+      "**/*.spec.js",
+      "**/*.spec.ts",
+      "**/*.test.ts",
+      "**/*.test.ts"
+  ]
+} 

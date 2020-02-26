@@ -1,0 +1,14 @@
+{
+  "verbose": false,
+  "quiet": true,
+  "ignore": [
+    "frontend/*",
+    "dist/*",
+    "tests/",
+    "webpack.config.js"
+  ],
+  "ext": "ts",
+  "execMap": {
+    "ts": "ts-node"
+  }
+}
